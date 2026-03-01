@@ -8,12 +8,12 @@ Sigue estos pasos para personalizar tu LifeOS:
 - [ ] Abre `CLAUDE.md` y revisa las reglas. Cambia `[Tu Nombre]` por tu nombre, y personaliza las "Frases de bandera roja" basándote en tus excusas más frecuentes.
 - [ ] Abre `context/about.md` y llena tus fortalezas, áreas de dificultad, influencias y frustraciones. Trata de ser brutalmente honesto.
 - [ ] Abre `context/current-state.md` y define cuál será tu foco principal de este mes (máximo 3 proyectos activos).
-- [ ] Opcional: Abre `context/self-analysis.md` y completa el análisis de tus patrones de evasión. (Puedes usar a un asistente LLM para que te analice según tus interacciones previas con él).
+- [ ] **Opcional pero muy recomendado:** Abre el archivo `MEMORY_EXTRACTION_PROMPT.md`. Este archivo contiene un prompt para que extraigas toda tu información histórica de tu IA principal (ChatGPT/Claude). Sigue las instrucciones allí para generar tu `context/self-analysis.md` a partir de un análisis crudo y objetivo.
 
 ## 2. Configuración del Entorno de IA
 - [ ] (Si usas Cursor/Cline/Windsurf u otro IDE con IA) Asegúrate de que este repositorio esté abierto como proyecto para que el LLM pueda leer el `CLAUDE.md` y la carpeta de `context/`.
-- [ ] **Paso Inicial:** Abre el archivo `INITIALIZATION.md`, copia la instrucción inicial y pégala en tu IA favorita. Esto iniciará una entrevista paso a paso donde el agente te ayudará a extraer tu información y personalizar todos tus archivos de contexto automáticamente.
-- [ ] **Configuración de Proyecto (Claude Projects, ChatGPT Custom GPTs, etc):** Si vas a usar una interfaz web en lugar de un IDE local, abre `WORKSPACE_PROMPT.md` para darle a tu IA el contexto sobre cómo debe comportarse como tu LifeOS y crear las instrucciones del sistema.
+- [ ] **Paso Inicial:** Abre el archivo `INITIALIZATION.md`, copia la instrucción inicial y pégala en tu IA favorita. Esto iniciará una entrevista paso a paso donde el agente te ayudará a extraer tu información y personalizar los restantes archivos de contexto automáticamente.
+- [ ] **Configuración del Agente / Proyecto:** Si vas a configurar un Agente Especializado (como Claude Projects, ChatGPT Custom GPTs, etc), la instrucción de inicio que debes darle como Prompt del Sistema (System Prompt) o para que generen las instrucciones del sistema, se encuentra en `WORKSPACE_PROMPT.md` (o `PROMPT.md`). Entrégale ese archivo para que entienda su marco de actuación antes de empezar.
 
 
 ## 3. Limpieza y Uso de Estructura
