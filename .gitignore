@@ -1,0 +1,28 @@
+# LifeOS ignored files
+
+# Inbox folder (temporary files and unsorted items)
+inbox/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive information
+.env
+.env.*
+*.log
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
