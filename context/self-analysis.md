@@ -1,5 +1,7 @@
 # Análisis Cruzado: Jesús a través de 4 espejos
 
+> Este documento contiene el análisis completo. El resumen operativo está en CLAUDE.md.
+
 ## Metodología
 
 Este informe sintetiza las observaciones de 4 asistentes que conocen a Jesús en contextos diferentes:

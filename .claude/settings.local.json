@@ -3,6 +3,11 @@
     "allow": [
       "Bash(git add:*)",
       "Bash(git commit:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\chuch\\.claude\\skills",
+      "c:\\Users\\chuch\\Projects\\Jesus_Projects\\LifeOS\\.claude\\skills",
+      "c:\\Users\\chuch\\Projects\\Jesus_Projects\\LifeOS\\.claude\\skills\\thinking-tools\\thinking-tools"
     ]
   },
   "outputStyle": "default"

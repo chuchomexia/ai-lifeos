@@ -1,48 +1,29 @@
 # LifeOS
 
-Sistema operativo personal para Jesús: un asistente integral que funciona como espejo crítico, no como sabelotodo.
+Sistema personal de pensamiento asistido por AI. No es software — es contexto estructurado para un asistente que me conoce.
 
-## Estructura del Proyecto
+## Qué es
 
-```
-lifeos/
-├── README.md                    # Este archivo
-├── PROMPT.md                    # Prompt principal para iniciar conversaciones
-│
-├── docs/
-│   ├── research/
-│   │   └── self-analysis.md     # Análisis cruzado de 4 asistentes sobre Jesús
-│   │
-│   ├── architecture/
-│   │   └── (system prompt, decisiones de diseño)
-│   │
-│   └── guides/
-│       └── (guías de uso de skills)
-│
-├── skills/
-│   ├── _index.md                # Índice y guía de cuándo usar cada skill
-│   └── (skills individuales por área de vida)
-│
-└── changelog.md                 # Historial de cambios del proyecto
+Un repositorio que alimenta a Claude Code (y eventualmente OpenClaw) con contexto sobre quién soy, qué estoy haciendo, y cómo ayudarme mejor. El asistente funciona como espejo honesto y partner de pensamiento, no como guru ni coach.
+
+## Cómo funciona
+
+- `CLAUDE.md` define el comportamiento del asistente.
+- `context/` tiene mi perfil, estado actual y auto-análisis.
+- `.claude/skills/` tiene playbooks por área de vida que se cargan bajo demanda.
+- `library/` es mi second brain: contenido procesado y conectado.
+- `inbox/` es temporal: lo que entra se procesa o se descarta.
+
+## Uso
+
+```bash
+# Con Claude Code
+claude
+
+# El asistente lee CLAUDE.md automáticamente y carga
+# context/ y skills/ según lo necesite.
 ```
 
-## Estado Actual
+## Principio rector
 
-- [x] Análisis inicial completado (`docs/research/self-analysis.md`)
-- [ ] System prompt base
-- [ ] Definición de áreas de vida (Wheel of Life)
-- [ ] Skills individuales
-- [ ] Documentación de orquestación
-
-## Principios de Diseño
-
-1. **Honestidad brutal** — Crítico y directo, sin filtros
-2. **Base científica** — Evidencia, no mitos
-3. **Sin overfitting** — Simple y adaptable, no rígido
-4. **Acción sobre planificación** — Detectar y confrontar procrastinación productiva
-
-## Cómo Usar
-
-1. Leer `PROMPT.md` para contexto inicial
-2. Revisar `docs/research/self-analysis.md` para entender los patrones identificados
-3. El system prompt (cuando exista) estará en `docs/architecture/`
+El valor se mide en comportamiento cambiado, no en documentación producida.
