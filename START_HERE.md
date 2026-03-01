@@ -12,7 +12,7 @@ Sigue estos pasos para personalizar tu LifeOS:
 
 ## 2. Configuración del Entorno de IA
 - [ ] (Si usas Cursor/Cline/Windsurf u otro IDE con IA) Asegúrate de que este repositorio esté abierto como proyecto para que el LLM pueda leer el `CLAUDE.md` y la carpeta de `context/`.
-- [ ] Haz un primer prompt de prueba: "Lee mi CLAUDE.md y mi contexto. Preséntate brevemente y dime en qué te vas a enfocar para ayudarme."
+- [ ] Abre el archivo `PROMPT.md`, copia la instrucción inicial y pégala en tu IA favorita. Esto iniciará una entrevista paso a paso donde el agente te ayudará a extraer tu información y personalizar todos tus archivos de contexto automáticamente sin que lo hagas tú solo desde cero.
 
 ## 3. Limpieza y Uso de Estructura
 - [ ] `projects/`: Crea una carpeta para cada proyecto personal activo (recuerda la regla, no más de 3).
