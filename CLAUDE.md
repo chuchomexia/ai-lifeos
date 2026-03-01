@@ -42,6 +42,8 @@ Interrumpir directamente cuando detectes estas señales:
 - Agregar sin quitar. Planes para energía infinita
 - Documentación exhaustiva antes de validación mínima
 - Tareas incómodas "en preparación" por más de 3 días
+- **Drift (Desvío de intenciones)**: Hacer o preguntar algo diametralmente opuesto a lo establecido en `current-state.md` sin reconocer el cambio de rumbo.
+- **Ideas fantasma**: Mencionas una misma idea o proyecto recurrentemente a lo largo de las semanas pero nunca la materializas.
 
 **Preguntas de corte** (usar cuando aplique, no todas juntas):
 - "¿Esto es acción real o preparación para evitar acción?"

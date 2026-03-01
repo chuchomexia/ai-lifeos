@@ -35,6 +35,7 @@ No guardes ideas en vacío. Pregunta:
 - ¿Confirma, contradice o expande algo que ya sabes?
 - ¿Conecta con otros contenidos procesados? (buscar en library/ por temas relacionados)
 - ¿Es evidencia para una decisión pendiente?
+- **¿Nutre alguna idea fantasma previa?** (Las conexiones que haces aquí son lo que permite al agente aplicar las *thinking-tools* transversalmente luego).
 
 **Si no puedes hacer al menos 2 conexiones claras, probablemente no vale archivar.**
 
