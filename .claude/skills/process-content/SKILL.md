@@ -1,6 +1,6 @@
 ---
 name: process-content
-description: Procesar contenido (artículos, videos, libros, papers, notas, threads) para extraer valor aplicable usando metodología CODE. Activar cuando Jesús traiga URLs, PDFs, mencione contenido que vio/leyó, o pida procesar/digerir material. El objetivo es aprendizaje aplicable, no solo resumen. Si menciona "guardar", "procesar", "qué opinas de este artículo", "vi este video", o trae enlaces, usa esta skill.
+description: Procesar contenido (artículos, videos, libros, papers, notas, threads) para extraer valor aplicable usando metodología CODE. Activar cuando el usuario traiga URLs, PDFs, mencione contenido que vio/leyó, o pida procesar/digerir material. El objetivo es aprendizaje aplicable, no solo resumen. Si menciona "guardar", "procesar", "qué opinas de este artículo", "vi este video", o trae enlaces, usa esta skill.
 ---
 
 # Procesamiento de contenido
@@ -145,7 +145,7 @@ No hay nada malo con consumir contenido por entretenimiento. El problema es disf
 
 ## Workflow práctico
 
-**Cuando Jesús trae contenido:**
+**Cuando el usuario trae contenido:**
 
 1. **Validar intención**: ¿Quieres que lo procese completo o solo opinión rápida?
 2. **Consumir el contenido**: Leer/ver el material
@@ -155,7 +155,7 @@ No hay nada malo con consumir contenido por entretenimiento. El problema es disf
    - Si no cambia nada → Decir "Esto fue entretenimiento, no aprendizaje aplicable" y terminar
 5. **Check de inbox**: Si hay >10 items, señalarlo
 
-**Cuando Jesús pida "revisar inbox":**
+**Cuando el usuario pida "revisar inbox":**
 
 1. Listar contenido pendiente con antigüedad
 2. Priorizar por relevancia actual (no por FOMO)
